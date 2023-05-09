@@ -18,3 +18,13 @@ GET http://localhost:3000/auth?email=bobthedog@dogg.com
 ### Delete a user with given ID
 
 DELETE  http://localhost:3000/auth/1
+
+### Update a user
+
+PATCH http://localhost:3000/auth/3
+Content-Type: application/json
+
+{
+	"email": "snoopTheDog@dogg.com",
+	"password": "don'tTestTheDogg"
+}
