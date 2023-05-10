@@ -9,7 +9,7 @@ Content-Type: application/json
 
 ### Find an user with a particular ID
 
-GET http://localhost:3000/auth/1
+GET http://localhost:3000/auth/3
 
 ### Find all user with a given email
 
