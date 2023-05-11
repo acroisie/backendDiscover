@@ -7,6 +7,15 @@ Content-Type: application/json
 	"password": "dogg"
 }
 
+### Sign in
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+	"email": "bobthedog1@dogg.com",
+	"password": "beuteu"
+}
+
 ### Find an user with a particular ID
 
 GET http://localhost:3000/auth/3
