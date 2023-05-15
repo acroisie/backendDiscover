@@ -26,3 +26,6 @@ Content-Type: application/json
 {
 	"approved": true
 }
+
+### Get an estimate for an existing vehicule
+GET http://localhost:3000/reports?make=citröen&model=c4&lng=6.351160&lat=48.198850&mileage=135000&year=2010
