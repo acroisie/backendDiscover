@@ -1,0 +1,20 @@
+### Create a new report
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+	"mileage": 135000,
+	
+	"price": 8000,
+
+	"make": "Citröen",
+
+	"model": "C4",
+
+	"year": 2010,
+
+	"lng": 6.351160,
+
+	"lat": 48.198850
+}

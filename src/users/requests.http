@@ -12,7 +12,7 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-	"email": "test@test.com",
+	"email": "tiesto@test.com",
 	"password": "12345"
 }
 
@@ -24,7 +24,7 @@ GET http://localhost:3000/auth/whoami
 
 ### Find an user with a particular ID
 
-GET http://localhost:3000/auth/3
+GET http://localhost:3000/auth/4
 
 ### Find all user with a given email
 
@@ -32,7 +32,7 @@ GET http://localhost:3000/auth?email=bobthedog@dogg.com
 
 ### Delete a user with given ID
 
-DELETE  http://localhost:3000/auth/1
+DELETE  http://localhost:3000/auth/5
 
 ### Update a user
 
